@@ -13,7 +13,7 @@ class Link {
     }
 
     pathToIcon() {
-        return `./icons/icon-${this.sizes}.png`
+        return `./icons/${this.sizes}.png`
     }
 
     generateLinkTag() {
@@ -35,13 +35,43 @@ const sizes = [
     new Link({ size: 144, rel: LinkRel.IE, relName: 'name', type: 'image/png', showSizes: false }),
     new Link({ size: 192, rel: LinkRel.APPLE, showSizes: false }),
     new Link({ size: 16, type: 'image/png', }),
+    new Link({ size: 20, type: 'image/png', }),
+    new Link({ size: 29, type: 'image/png', }),
     new Link({ size: 32, type: 'image/png', }),
+    new Link({ size: 36, type: 'image/png', }),
+    new Link({ size: 40, type: 'image/png', }),
+    new Link({ size: 48, type: 'image/png', }),
+    new Link({ size: 50, type: 'image/png', }),
+    new Link({ size: 55, type: 'image/png', }),
+    new Link({ size: 57, type: 'image/png', }),
+    new Link({ size: 58, type: 'image/png', }),
+    new Link({ size: 60, type: 'image/png', }),
+    new Link({ size: 64, type: 'image/png', }),
+    new Link({ size: 66, type: 'image/png', }),
+    new Link({ size: 72, type: 'image/png', }),
+    new Link({ size: 76, type: 'image/png', }),
+    new Link({ size: 80, type: 'image/png', }),
+    new Link({ size: 87, type: 'image/png', }),
+    new Link({ size: 88, type: 'image/png', }),
+    new Link({ size: 92, type: 'image/png', }),
     new Link({ size: 96, type: 'image/png', }),
+    new Link({ size: 100, type: 'image/png', }),
+    new Link({ size: 102, type: 'image/png', }),
+    new Link({ size: 114, type: 'image/png', }),
+    new Link({ size: 120, type: 'image/png', }),
     new Link({ size: 128, type: 'image/png', }),
+    new Link({ size: 144, type: 'image/png', }),
+    new Link({ size: 152, type: 'image/png', }),
+    new Link({ size: 167, type: 'image/png', }),
+    new Link({ size: 172, type: 'image/png', }),
+    new Link({ size: 180, type: 'image/png', }),
     new Link({ size: 192, type: 'image/png', }),
+    new Link({ size: 196, type: 'image/png', }),
+    new Link({ size: 216, type: 'image/png', }),
     new Link({ size: 256, type: 'image/png', }),
     new Link({ size: 384, type: 'image/png', }),
     new Link({ size: 512, type: 'image/png', }),
+    new Link({ size: 1024, type: 'image/png', }),
     new Link({ size: 57, rel: LinkRel.APPLE }),
     new Link({ size: 60, rel: LinkRel.APPLE }),
     new Link({ size: 72, rel: LinkRel.APPLE }),
